@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Favicon for all browsers -->
+    <link rel="icon" href="assetphotos/favicon.ico" type="image/x-icon">
+
+    <!-- Optional: Favicon for modern web browsers with different sizes -->
+    <link rel="icon" href="assetphotos/favicon-32x32.png" sizes="32x32" type="image/png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoostWave Studios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CDN link for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Cover Section -->
+    <section class="cover-section">
+        <div class="cover-overlay">
+            <h1>Transforming Moments into Masterpieces</h1>
+            <p>Your one-stop solution for professional photo and video editing.</p>
+            <button onclick="location.href='#our-works'" class="btn-main">Explore Our Work</button>
+            <button onclick="location.href='#contact'" class="btn-secondary">Get a Quote</button>
+        </div>
+    </section>
+
+    <!-- Perks Section -->
+    <section id="perks" class="perks-section">
+        <h2 style="font-weight: bold;">Why Choose Us?</h2>
+        <div class="perks-container">
+            <div class="perk-box">
+                <img src="assetphotos/quality.png" alt="Quality">
+                <h3>High Quality Edits</h3>
+                <p>We deliver industry-standard, high-quality editing.</p>
+            </div>
+            <div class="perk-box">
+                <img src="assetphotos/time.png" alt="Fast Turnaround">
+                <h3>Fast Turnaround Time</h3>
+                <p>Quick processing to meet your deadlines.</p>
+            </div>
+            <div class="perk-box">
+                <img src="assetphotos/money.png" alt="Affordable">
+                <h3>Affordable Packages</h3>
+                <p>Flexible pricing for all project sizes.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Our Works Section -->
+<section id="our-works" class="our-works-section container">
+    <h2 style="font-weight: bold;">Our Expertise</h2>
+    <div class="row">
+        <!-- Carousel Column -->
+        <div class="col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assetphotos/1A.jpg" class="d-block w-100 carousel-image" alt="Work 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetphotos/1Abhi.jpg" class="d-block w-100 carousel-image" alt="Work 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetphotos/3ABHI.webp" class="d-block w-100 carousel-image" alt="Work 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetphotos/1 podcast .jpg" class="d-block w-100 carousel-image" alt="Work 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assetphotos/1 Online earning .jpg" class="d-block w-100 carousel-image" alt="Work 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Text Column -->
+        <div class="col-md-6 d-flex align-items-center">
+            <div class="carousel-text">
+                <h3>Our Expertise in Visual Storytelling</h3>
+                <p>At BoostWave Studios, we specialize in transforming raw moments into breathtaking visuals. Our team of skilled editors brings creativity, precision, and dedication to each project, ensuring that every photo and video we touch tells a compelling story.</p>
+                <p>Explore our portfolio to see the quality and artistry that define our work. From professional retouching to dynamic video editing, we deliver results that exceed expectations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Best Works Section -->
+<section id="best-works" class="best-works-section container">
+    <!-- Photos Section -->
+    <div class="section-heading">
+        <h2 style="font-weight: bold;">Our Best Photos</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/ads.jpg" class="d-block w-100 work-image" alt="Photo 1"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/banner.jpg" class="d-block w-100 work-image" alt="Photo 2"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/pattern.jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/Poster.jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/1 Online earning .jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/1 podcast .jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/1A.jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/1Abhi.jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/3ABHI.webp" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item photo-item">
+                <img src="assetphotos/upscale.jpg" class="d-block w-100 work-image" alt="Photo 3"  onclick="openModal(this)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Videos Section -->
+    <div class="section-heading">
+        <h2 style="font-weight: bold;">Our Best Videos</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/6.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/5.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/65 Quick Facts to Make You the Most Interesting Person in The Room.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <video class="video-embed" controls muted>
+                    <source src="assetvideos/1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/3.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/4.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/Tata Technology Video.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/GYM Promo 2.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/7.mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/Gym official Promo .mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="best-work-item video-item">
+                <div class="best-work-item video-item">
+                    <video class="video-embed" controls muted>
+                        <source src="assetvideos/color grade 1 .mp4" type="video/mp4" >
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImage" class="modal-content" alt="Full Image">
+    <div id="caption"></div>
+</div>
+
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2 style="font-weight: bold;">About Us</h2>
+        <p>At <b>BoostWave Studios</b>, we are passionate about bringing your <b>creative visions</b> to life through exceptional video and photo editing services. With years of experience in the industry, we specialize in transforming raw footage and images into polished, professional content that tells your story in the most compelling way.
+
+            Our talented team of designers and editors work tirelessly to deliver <b>top-tier results</b>, ensuring that every project exceeds expectations. We take great pride in the <b>designs showcased</b> on our platform, each one meticulously crafted by our out-house designers who focus on every detail to bring out the best in your visuals.
+            
+            Whether it's enhancing a corporate video, retouching product photos, or creating an unforgettable visual experience, BoostWave Studios is dedicated to delivering high-quality results with a personal touch. Our team combines technical expertise with artistic flair to create content that is not only visually stunning but also resonates with your target audience.
+            
+            We believe in building strong, lasting relationships with our clients, understanding their unique needs, and providing tailored solutions that make an impact. Explore our portfolio and discover how BoostWave Studios can elevate your content to new heights.
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Get in Touch</h2>
+            <p class="section-description text-center">Have a question or an enquiry? We're here to help. Reach out to us anytime!</p>
+    
+            <div class="contact-form">
+                <form id="contactForm" action="javascript:void(0);" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
+                </form>
+                <div id="responseMessage" class="response-message"></div>
+    
+                <!-- Instagram link below the form -->
+                <div class="social-media-links text-center">
+                    <p>Or reach out to us on Instagram:</p>
+                    <a href="https://www.instagram.com/boostwavestudio/" target="_blank" class="instagram-link">
+                        <i class="fab fa-instagram"></i> Follow us on Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

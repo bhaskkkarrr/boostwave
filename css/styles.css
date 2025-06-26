@@ -1,0 +1,322 @@
+h2 {
+    text-align: center;
+    color: #003366;
+    padding-bottom: 20px;
+}
+
+/* Cover Section */
+.cover-section {
+    background-image: url('../assetphotos/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-overlay {
+    background: rgba(7, 44, 82, 0.823);
+    padding: 20px;
+    color: #e6dede;
+    border-radius: 10px;
+}
+
+.btn-main, .btn-secondary {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #e6dede;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-main {
+    background-color: #da1cd7;
+}
+
+.btn-secondary {
+    background-color: rgba(4, 40, 76, 0.7);
+}
+
+/* Perks Section */
+.perks-section {
+    background-color: #e6dede;
+    padding: 40px;
+}
+
+.perks-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.perk-box {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(4, 40, 76, 0.7);
+}
+.perk-box img {
+    width: 60px; /* Set a fixed width for the icons */
+    height: 60px; /* Set a fixed height for the icons */
+    margin-bottom: 10px; /* Space between icon and heading */
+}
+
+/* Our Works Section */
+#our-works{
+    padding-top: 30px;
+}
+.our-works-section {
+    padding: 50px 50px;
+    color: #003366;
+    background: #fff;
+}
+
+/* Center Heading at the Top */
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px; /* Add space below the heading */
+}
+
+.section-heading h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Carousel Image Settings */
+.carousel-image {
+    width: 100%;               /* Full width of the column */
+    max-height: 50vh;          /* Limit height to half the viewport */
+    object-fit: contain;       /* Make sure the image is fully visible */
+    aspect-ratio: 16 / 9;      /* Maintain 16:9 aspect ratio */
+}
+
+/* Text Column Styling */
+.carousel-text {
+    padding: 20px;
+    color: #000000;
+}
+
+.carousel-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.carousel-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+/* Best Works Section */
+.best-works-section {
+    padding: 50px 0;
+    color: #003366;
+    background: #FFF;
+}
+
+/* Section Heading Styling */
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* Image Styling for Best Photos */
+.work-image {
+    width: 100%;
+    height: 250px; /* Fixed height to crop images uniformly */
+    object-fit: cover; /* Ensures the image is cropped and fits within the container */
+    border-radius: 8px; /* Adds rounded corners */
+    margin-bottom: 15px;
+    cursor: pointer; /* Indicates the image is clickable */
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+    overflow: auto;
+    padding-top: 60px; /* Position the modal content */
+    padding-bottom: 60px;
+    display: flex; /* Use flexbox to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.modal-content {
+    max-width: 100%; /* Ensure the image doesn't exceed the screen width */
+    max-height: 100%; /* Ensure the image doesn't exceed the screen height */
+    object-fit: contain; /* Keeps the aspect ratio intact */
+    transition: transform 0.3s ease; /* Smooth transition when image is displayed */
+    border: none;
+}
+#caption {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* Close Button Styling */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Video Styling for Best Videos */
+.video-embed {
+    width: 100%;
+    height: 250px; /* Fixed height to maintain aspect ratio */
+    object-fit: cover; /* Ensures videos are cropped uniformly */
+    border-radius: 8px; /* Adds rounded corners */
+    margin-bottom: 15px;
+}
+
+/* Grid Layout for Best Works */
+.best-work-item {
+    margin-bottom: 30px;
+    overflow: hidden; /* Ensure the image is cropped */
+    position: relative;
+}
+
+.best-work-item:hover {
+    cursor: pointer;
+}
+
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color: #e6dede;
+}
+
+/* Contact Section */
+/* Contact Us Section Styling */
+.contact-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.section-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #FF9966;
+    outline: none;
+}
+
+.btn {
+    background-color: #FF9966;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+.response-message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+}
+
+.response-message.error {
+    color: #dc3545;
+}
+/* Instagram Link Styling */
+.social-media-links {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid #003366;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.instagram-link:hover {
+    background-color: #003366;
+    color: white;
+}
+
+.social-media-links p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
